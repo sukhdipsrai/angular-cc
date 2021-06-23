@@ -16,3 +16,4 @@ export class TaskService {
     return this.http.get<Task[]>(this.apiUrl);
 }
 }
+// kind of like a API/Redux for react
